@@ -131,12 +131,14 @@ body {
     background-color: #e3e8e9a6;
     margin-top: 11%;
     width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .bezopas img {
     max-width: 100%;
     width: 40%;
-    margin-top: 8%;
+    
     margin-left: 7%;
     display: flex;
     float: left;
@@ -147,9 +149,10 @@ body {
     color: #000000;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    float: right;
-    margin-right: 23%;
-    margin-top: 17%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+   
 }
 
 .bezopas h2 {
@@ -157,9 +160,12 @@ body {
     color: #000000;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
-    float: right;
-    margin-right: 14%;
+    float: left;
+    margin-left: 5%;
+     
 }
+
+.right-block { display: flex; flex-direction: column; padding-left: 20%; }
 
 .basement {
     padding-top: 133px;
